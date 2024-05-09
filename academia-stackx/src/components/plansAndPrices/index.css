@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.plansAndPrices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.plansContainerFather {
+  display: flex;
+  gap: 40px;
+  width: 22%;
+  margin-bottom: 100px;
+}
+
+.plansContainer {
+  border: 2px solid greenyellow;
+  background-color: #1c1c1a;
+  border-radius: 10px;
+  height: 450px;
+  margin: auto;
+}
+
+.plansContainer:hover {
+  box-shadow: 0 0 10px 2px white;
+  transition: 0.3s ease-in-out;
+}
+
+.buttonBuy {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: 2px solid greenyellow;
+  background: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.buttonBuy:hover {
+  box-shadow: 0 0 5px 2px white;
+}
+
+.buttonRegister {
+  width: 85px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonRegister:hover {
+  border: 1px solid black;
+  box-shadow: 0 0 1px 3px greenyellow;
+}

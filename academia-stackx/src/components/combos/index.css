@@ -1,0 +1,26 @@
+.containerCombos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.titleCombos {
+  width: 100%;
+  color: rgb(117, 112, 112);
+  text-transform: uppercase;
+  font-size: 100px;
+  margin-bottom: 40px;
+}
+
+.titleCombos span {
+  color: whitesmoke;
+}
+
+.containerCombos p {
+  width: 40%;
+  color: whitesmoke;
+  font-size: 20px;
+}

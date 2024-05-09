@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.backgroundFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  width: 100%;
+  height: 440px;
+  background-color: #353231;
+}
+
+.containerInfo {
+  width: 450px;
+  padding: 20px;
+}
+
+.containerInfo h2 {
+  text-transform: uppercase;
+  font-size: 85px;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.containerInfo p {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.fone {
+  font-size: 30px !important;
+  margin-top: 50px;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 450px;
+  padding: 20px;
+}
+
+.form input {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.form input:hover,
+textarea:hover {
+  box-shadow: 0 0 5px 2px greenyellow;
+}
+
+.form input:focus-visible,
+textarea:focus-visible {
+  outline-color: rgb(103, 151, 29);
+}
+
+.form input:focus,
+textarea:focus {
+  box-shadow: inset 0 0 2px 2px;
+}
+
+.form textarea {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 400px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.form button {
+  font-family: "Roboto Condensed", sans-serif;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgb(83, 79, 79);
+  border: none;
+  border-radius: 5px;
+}
+
+.form button:hover {
+  border: 1px solid black;
+  box-shadow: 0 0 1px 3px greenyellow;
+}

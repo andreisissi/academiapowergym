@@ -1,0 +1,10 @@
+body {
+  background-image: url("./img/backgroundGym.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navBar {
+  display: flex;
+  gap: 250px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-top: 30px;
+}
+
+.spanNavBar {
+  font-family: "Roboto Condensed", sans-serif;
+  color: greenyellow;
+  font-size: 60px;
+  margin-right: 400px;
+}
+
+.UlListNavBar {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.UlListNavBar li {
+  font-size: 25px;
+}
+
+.UlListNavBar li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.UlListNavBar li a:hover {
+  color: greenyellow;
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.section {
+  background-image: url("../../img/backgroundBody.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.containerFirstSection {
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.containerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  flex-direction: column;
+}
+
+.containerTitle h3 {
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 50px;
+  margin: 0;
+}
+
+.containerTitle h1 {
+  font-size: 115px;
+  text-transform: uppercase;
+  color: greenyellow;
+  margin: 0;
+}
+
+.containerSpan {
+  display: flex;
+  text-align: center;
+  width: 15%;
+  margin-left: 30.8rem;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.containerAbout {
+  font-family: "Roboto Condensed", sans-serif;
+  color: whitesmoke;
+  font-size: 30px;
+  width: 45%;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 150px;
+}
+
+.container100 {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  margin-left: auto;
+  margin-top: 120px;
+}
+
+.container100Children {
+  background-color: #1c1c1a;
+  width: 250px;
+  height: 245px;
+  border-radius: 25px;
+}
+
+.container100Children p {
+  color: whitesmoke;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.containerRound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid greenyellow;
+  border-radius: 50%;
+  width: 60%;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.containerRound span {
+  color: whitesmoke;
+  font-size: 40px;
+}
