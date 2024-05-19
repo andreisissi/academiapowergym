@@ -4,7 +4,7 @@ import "./index.css";
 function Values(props) {
   return (
     <div>
-      <h3 className='values'>{props.value}</h3>;
+      <h3 className='values'>{props.value}</h3>
     </div>
   );
 }

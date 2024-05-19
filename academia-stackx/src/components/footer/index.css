@@ -97,7 +97,7 @@ textarea:focus {
   box-shadow: 0 0 1px 3px greenyellow;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .backgroundFooter {
     gap: 10px;
     width: 100%;
@@ -164,10 +164,7 @@ textarea:focus {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .backgroundFooter {
     gap: 10px;
     width: 100%;
@@ -205,15 +202,9 @@ textarea:focus {
     width: 140px;
     height: 35px;
   }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1650px) {
-}
-
-/* @media screen and (min-width: 768px) and (max-width: 1200px) {
   .backgroundFooter {
     gap: 10px;
     width: 100%;
@@ -221,7 +212,7 @@ textarea:focus {
   }
 
   .containerInfo {
-    width: 45%;
+    width: 35%;
     padding: 10px;
   }
 
@@ -240,15 +231,19 @@ textarea:focus {
   }
 
   .containerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 45%;
   }
 
   .form {
-    width: 100%;
+    max-width: 500px;
   }
 
   .form button {
     width: 140px;
     height: 35px;
   }
-} */
+}
