@@ -10,6 +10,7 @@
   font-family: "Roboto Condensed", sans-serif;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 65%;
   margin: auto;
   padding-bottom: 100px;
@@ -40,7 +41,6 @@
   display: flex;
   text-align: center;
   width: 15%;
-  margin-left: 30.8rem;
   line-height: 30px;
   font-size: 20px;
   font-weight: bolder;
@@ -93,4 +93,268 @@
 .containerRound span {
   color: whitesmoke;
   font-size: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .containerFirstSection {
+    width: 90%;
+    padding-bottom: 40px;
+  }
+
+  .containerTitle h3 {
+    font-size: 20px;
+  }
+
+  .containerTitle h1 {
+    font-size: 25px;
+  }
+
+  .containerSpan {
+    width: 30%;
+    line-height: 14px;
+    font-size: 10px;
+  }
+
+  .containerAbout {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 15px;
+  }
+
+  .container100 {
+    gap: 10px;
+    margin-left: auto;
+    margin-top: 16px;
+  }
+
+  .container100Children {
+    width: 65px;
+    height: 70px;
+    border-radius: 10px;
+  }
+
+  .container100Children p {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .containerRound {
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    width: 55%;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+  .containerRound span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .containerFirstSection {
+    width: 85%;
+    padding-bottom: 40px;
+  }
+
+  .containerTitle h3 {
+    font-size: 30px;
+  }
+
+  .containerTitle h1 {
+    font-size: 45px;
+  }
+
+  .containerSpan {
+    width: 35%;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .containerAbout {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+
+  .container100 {
+    gap: 15px;
+    margin-left: auto;
+    margin-top: 30px;
+  }
+
+  .container100Children {
+    width: 90px;
+    height: 95px;
+  }
+
+  .container100Children p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .containerRound {
+    border-radius: 50%;
+    width: 55%;
+    height: 50px;
+    margin-top: 15px;
+  }
+
+  .containerRound span {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .containerFirstSection {
+    width: 85%;
+    padding-bottom: 80px;
+  }
+
+  .containerTitle h3 {
+    font-size: 30px;
+  }
+
+  .containerTitle h1 {
+    font-size: 65px;
+  }
+
+  .containerSpan {
+    width: 20%;
+    margin-left: 12rem;
+    line-height: 22px;
+    font-size: 15px;
+  }
+
+  .containerAbout {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 50px;
+  }
+
+  .container100 {
+    gap: 15px;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  .container100Children {
+    width: 150px;
+    height: 145px;
+  }
+
+  .container100Children p {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  .containerRound {
+    border-radius: 50%;
+    width: 55%;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  .containerRound span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .containerFirstSection {
+    width: 65%;
+    padding-bottom: 80px;
+  }
+
+  .containerTitle h3 {
+    font-size: 30px;
+  }
+
+  .containerTitle h1 {
+    font-size: 65px;
+  }
+
+  .containerSpan {
+    width: 20%;
+    margin-left: 12rem;
+    line-height: 22px;
+    font-size: 15px;
+  }
+
+  .containerAbout {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 50px;
+  }
+
+  .container100 {
+    gap: 15px;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  .container100Children {
+    width: 150px;
+    height: 145px;
+  }
+
+  .container100Children p {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  .containerRound {
+    border-radius: 50%;
+    width: 55%;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  .containerRound span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1650px) {
+  .containerTitle h1 {
+    font-size: 90px;
+  }
+
+  .containerSpan {
+    width: 19%;
+    margin-left: 12rem;
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .containerAbout {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 50px;
+  }
+
+  .container100 {
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .container100Children {
+    width: 180px;
+    height: 165px;
+  }
+
+  .container100Children p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .containerRound {
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  .containerRound span {
+    font-size: 25px;
+  }
 }

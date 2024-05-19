@@ -2,9 +2,10 @@
 
 .navBar {
   display: flex;
-  gap: 250px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
   margin-bottom: 100px;
   padding-top: 30px;
 }
@@ -13,7 +14,6 @@
   font-family: "Roboto Condensed", sans-serif;
   color: greenyellow;
   font-size: 60px;
-  margin-right: 400px;
 }
 
 .UlListNavBar {
@@ -33,4 +33,77 @@
 
 .UlListNavBar li a:hover {
   color: greenyellow;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navBar {
+    width: 90%;
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .spanNavBar {
+    font-size: 25px;
+  }
+
+  .UlListNavBar {
+    gap: 10px;
+  }
+
+  .UlListNavBar li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .navBar {
+    width: 85%;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .spanNavBar {
+    font-size: 40px;
+  }
+
+  .UlListNavBar {
+    gap: 20px;
+  }
+
+  .UlListNavBar li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navBar {
+    width: 85%;
+    margin-bottom: 50px;
+  }
+
+  .spanNavBar {
+    font-size: 50px;
+  }
+
+  .UlListNavBar {
+    gap: 20px;
+  }
+
+  .UlListNavBar li {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .navBar {
+    margin-bottom: 85px;
+  }
+
+  .spanNavBar {
+    font-size: 55px;
+  }
+
+  .UlListNavBar {
+    gap: 25px;
+  }
 }

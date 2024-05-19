@@ -2,3 +2,17 @@
   font-size: 30px;
   color: whitesmoke;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .values {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .values {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+}

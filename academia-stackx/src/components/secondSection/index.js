@@ -18,7 +18,7 @@ function SecondSection() {
             style={{ color: "#B7B8BA" }}
           />
           <h3>ambiente agradável</h3>
-          <p>Ar condicionado e iluminação em toda a academia.</p>
+          <p>Ar condicionado e ótima iluminação em toda a academia.</p>
         </div>
 
         <div className='sectionCard'>

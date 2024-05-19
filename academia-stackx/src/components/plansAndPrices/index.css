@@ -9,16 +9,18 @@
 .plansAndPrices {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-between;
   text-align: center;
+  width: 100%;
   margin-top: 50px;
 }
 
 .plansContainerFather {
   display: flex;
+  justify-content: space-between;
   gap: 40px;
   width: 22%;
+  margin: auto;
   margin-bottom: 100px;
 }
 
@@ -26,7 +28,6 @@
   border: 2px solid greenyellow;
   background-color: #1c1c1a;
   border-radius: 10px;
-  height: 450px;
   margin: auto;
 }
 
@@ -39,6 +40,7 @@
   width: 150px;
   height: 40px;
   font-size: 15px;
+  margin-bottom: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   border-radius: 5px;
@@ -68,4 +70,80 @@
 .buttonRegister:hover {
   border: 1px solid black;
   box-shadow: 0 0 1px 3px greenyellow;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .plansContainerFather {
+    width: 30%;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+  .plansContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+  }
+
+  .buttonBuy {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    border: 1px solid greenyellow;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .plansContainerFather {
+    width: 32%;
+    gap: 0;
+    margin-bottom: 50px;
+  }
+
+  .plansContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+  }
+
+  .buttonBuy {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    border: 1px solid greenyellow;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .plansContainerFather {
+    width: 28%;
+    gap: 0;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+  .plansContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .plansContainerFather {
+    width: 25%;
+    gap: 0;
+    margin: auto;
+    margin-bottom: 80px;
+  }
 }
