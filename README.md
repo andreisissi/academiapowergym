@@ -1,7 +1,7 @@
 ![image](https://github.com/andreisissi/academiapowergym/assets/108301269/4bc30b66-d93e-47e4-af0a-68af834e8d9d)
 
 * DEPLOY:
-  https://academia-stackx-bzkjopqah-andreisissis-projects.vercel.app/
+  https://academia-stackx-m7qxg7jrk-andreisissis-projects.vercel.app/
 
 📌 Passo 1: Configuração do Ambiente de Desenvolvimento
 
