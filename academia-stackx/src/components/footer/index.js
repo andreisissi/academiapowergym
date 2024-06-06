@@ -20,7 +20,7 @@ function Footer() {
         <p className='fone'>Telefone para contato: (47)99999-9999</p>
       </div>
       <div className='containerForm'>
-        <form className='form'>
+        <form className='formFooter'>
           <input type='text' placeholder='Nome Completo' />
           <input type='email' placeholder='Email' />
           <textarea cols='30' rows='7' placeholder='Mensagem' />

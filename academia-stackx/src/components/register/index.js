@@ -9,7 +9,7 @@ function Register() {
   };
 
   return (
-    <div>
+    <div className='formModal'>
       <form className='form' onSubmit={handleSubmit}>
         <Input type='text' placeholder='Nome' />
         <Input type='email' placeholder='E-mail' />

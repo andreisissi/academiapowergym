@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../navBar";
 import "./index.css";
 
-function FirstSection() {
+function Home() {
   return (
     <section className='section'>
       <div className='background'>
@@ -48,4 +48,4 @@ function FirstSection() {
   );
 }
 
-export default FirstSection;
+export default Home;

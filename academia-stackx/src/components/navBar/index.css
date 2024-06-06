@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 .navBar {
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: space-between;
-  width: 65%;
+  width: 100%;
+  /* width: 65%; */
   margin: auto;
-  margin-bottom: 100px;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 17%;
+  padding-right: 18%;
+  background-color: rgba(0, 0, 0, 0.806);
 }
 
 .spanNavBar {
@@ -24,22 +31,21 @@
 
 .UlListNavBar li {
   font-size: 25px;
-}
-
-.UlListNavBar li a {
   text-decoration: none;
+  cursor: pointer;
   color: whitesmoke;
 }
 
-.UlListNavBar li a:hover {
+.UlListNavBar li:hover {
   color: greenyellow;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .navBar {
-    width: 90%;
-    padding-top: 20px;
-    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    padding-right: 5%;
   }
 
   .spanNavBar {
@@ -57,13 +63,13 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .navBar {
-    width: 85%;
-    margin-bottom: 50px;
     padding-top: 20px;
+    padding-left: 7%;
+    padding-right: 5%;
   }
 
   .spanNavBar {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .UlListNavBar {
@@ -77,12 +83,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .navBar {
-    width: 85%;
-    margin-bottom: 50px;
+    padding-left: 8%;
+    padding-right: 9%;
   }
 
   .spanNavBar {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .UlListNavBar {

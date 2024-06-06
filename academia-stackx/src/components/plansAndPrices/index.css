@@ -18,7 +18,6 @@
 .plansContainerFather {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
   width: 22%;
   margin: auto;
   margin-bottom: 100px;
@@ -58,6 +57,7 @@
 .buttonRegister {
   width: 85px;
   height: 40px;
+  margin-top: 10px;
   cursor: pointer;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
@@ -72,9 +72,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .plansAndPrices {
+    margin-top: 20px;
+  }
+
   .plansContainerFather {
     width: 30%;
-    gap: 10px;
     margin-bottom: 50px;
   }
 
@@ -98,17 +101,16 @@
   }
 
   .buttonRegister {
-    width: 80px;
-    height: 30px;
-    font-size: 20px;
-    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 2px;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .plansContainerFather {
     width: 32%;
-    gap: 0;
     margin-bottom: 50px;
   }
 
@@ -135,7 +137,6 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .plansContainerFather {
     width: 28%;
-    gap: 0;
     margin: auto;
     margin-bottom: 80px;
   }
@@ -148,7 +149,6 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .plansContainerFather {
     width: 25%;
-    gap: 0;
     margin: auto;
     margin-bottom: 80px;
   }

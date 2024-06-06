@@ -6,11 +6,11 @@ import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import { faWifi } from "@fortawesome/free-solid-svg-icons";
 import { faCar } from "@fortawesome/free-solid-svg-icons";
 
-function SecondSection() {
+function About() {
   return (
-    <section className='secondSection'>
-      <div className='containerSecondSection'>
-        <div className='sectionCard'>
+    <section className='aboutSection'>
+      <div className='aboutContainer'>
+        <div className='aboutCard'>
           <FontAwesomeIcon
             className='icon'
             icon={faWind}
@@ -21,7 +21,7 @@ function SecondSection() {
           <p>Ar condicionado e ótima iluminação em toda a academia.</p>
         </div>
 
-        <div className='sectionCard'>
+        <div className='aboutCard'>
           <FontAwesomeIcon
             className='icon'
             icon={faDumbbell}
@@ -32,7 +32,7 @@ function SecondSection() {
           <p>Equipamentos e acessórios completos para os seus exercícios.</p>
         </div>
 
-        <div className='sectionCard'>
+        <div className='aboutCard'>
           <FontAwesomeIcon
             className='icon'
             icon={faWifi}
@@ -43,7 +43,7 @@ function SecondSection() {
           <p>Acesso à internet para você se conectar durante o treino.</p>
         </div>
 
-        <div className='sectionCard'>
+        <div className='aboutCard'>
           <FontAwesomeIcon
             className='icon'
             icon={faCar}
@@ -58,4 +58,4 @@ function SecondSection() {
   );
 }
 
-export default SecondSection;
+export default About;

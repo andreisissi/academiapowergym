@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./index.css";
 
 function NavBar() {
@@ -7,13 +8,19 @@ function NavBar() {
       <span className='spanNavBar'>PowerGym</span>
       <ul className='UlListNavBar'>
         <li>
-          <a href='#'>Home</a>
+          <Link to='section' span={true} smooth={true}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href='#'>Planos</a>
+          <Link to='plansAndPrices' span={true} smooth={true}>
+            Planos
+          </Link>
         </li>
         <li>
-          <a href='#'>Contato</a>
+          <Link to='backgroundFooter' span={true} smooth={true}>
+            Contato
+          </Link>
         </li>
       </ul>
     </div>

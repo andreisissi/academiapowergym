@@ -1,20 +1,20 @@
 import PlansAndPrices from "./components/plansAndPrices";
-import FirstSection from "./components/firstSection";
-import SecondSection from "./components/secondSection";
+import Home from "./components/home";
+import About from "./components/about";
 import Footer from "./components/footer";
 import "./app.css";
 
 function App() {
   return (
     <div className='background'>
-      <div className='teste'>
-        <FirstSection />
+      <div className='home'>
+        <Home />
       </div>
       <div>
         <PlansAndPrices />
       </div>
-      <div className='secondSection'>
-        <SecondSection />
+      <div className='about'>
+        <About />
       </div>
       <div className='footer'>
         <Footer />
